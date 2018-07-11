@@ -1,3 +1,5 @@
+package com.ds.general;
+
 public class SmallestKNumsInArray {
     public static void main(String[] args) {
 	int[] arr = {4, 5, 1, 6, 2, 7, 3, 8};

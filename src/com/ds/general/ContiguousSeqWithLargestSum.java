@@ -1,3 +1,5 @@
+package com.ds.general;
+
 // This class finds the longest continuous array elements with the largest sum
 
 // This solution finds the largest cont sub seq with max sum even if the array contains all -ve elements. 
@@ -14,7 +16,7 @@ public class ContiguousSeqWithLargestSum {
 	
 	// will not print anything, since we do not have a strictly - increasing monotone sequence here
 	int[] arr3 = {5, 4, 3, 2, 1, 0};
-	printLongestIncreasingSequence(arr3);
+	printLargestContSubSeq(arr3);
     }
 
     private static void printLargestContSubSeq(int[] arr) {

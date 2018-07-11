@@ -1,3 +1,7 @@
+package com.ds.general;
+
+import java.util.*;
+
 public class PrintLongestIncreasingSequence {
     
     // for testing
@@ -45,7 +49,6 @@ public class PrintLongestIncreasingSequence {
 	}
 
 	if (len >= 2) {
-	    // reconstruct
 	    Stack<Integer> st = new Stack<Integer>();
 	    for (int j = tailIndices[len-1]; j>=0; j = prevTailIndices[j]) {
 		st.push(arr[j]);

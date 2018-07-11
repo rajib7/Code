@@ -1,3 +1,5 @@
+package com.ds.general;
+
 public class MinInRotatedSorted {
     
     public static void main(String[] args) {
